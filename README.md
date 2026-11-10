@@ -58,16 +58,16 @@ With a Claude subscription login, queries count toward the usage limits of the s
 | Keyword      | Command      | Description                                                    |
 | ------------ | ------------ | -------------------------------------------------------------- |
 | `claude`     | Ask Claude   | Free-form question                                             |
-| `cspell`     | Spell Check  | Correct spelling and grammar, keeping the language and format  |
-| `ctranslate` | Translate    | Translate to `default_lang`, or to the language of a `:xx` prefix |
+| `aspell`     | Spell Check  | Correct spelling and grammar, keeping the language and format  |
+| `translate` | Translate    | Translate to `default_lang`, or to the language of a `:xx` prefix |
 
-The keywords differ from the Bedrock workflow (`bedrock`, `aspell`, `translate`), so both can be installed side by side.
+`aspell` and `translate` are also the keywords of the Bedrock workflow: with both installed, Alfred lists both results.
 
 Translation examples:
 
-- `ctranslate Hello world` → translates to default language
-- `ctranslate :fr Hello world` → translates to French
-- `ctranslate :de Bonjour le monde` → translates to German
+- `translate Hello world` → translates to default language
+- `translate :fr Hello world` → translates to French
+- `translate :de Bonjour le monde` → translates to German
 
 Without the colon, only known codes (de, en, es, fr, it, ja, ko, nl, pl, pt, ru, zh) are read as a language, so text starting with a short word such as "Le chat" is translated as a whole.
 

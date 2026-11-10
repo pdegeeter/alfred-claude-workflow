@@ -360,7 +360,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>cspell</string>
+				<string>aspell</string>
 				<key>queuedelaycustom</key>
 				<integer>1</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -600,7 +600,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>ctranslate</string>
+				<string>translate</string>
 				<key>queuedelaycustom</key>
 				<integer>1</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -720,14 +720,14 @@ Ask Claude from Alfred through Claude Code (`claude -p`): no API key to configur
 
 **claude** - Ask anything to Claude
 
-**cspell** - Correct spelling and grammar, in the language of the text
+**aspell** - Correct spelling and grammar, in the language of the text
 
-**ctranslate** - Translate text to your default language.
+**translate** - Translate text to your default language.
 Use `:lang` prefix to specify a different target language.
 
 Examples:
-- `ctranslate Hello world` → translates to default language
-- `ctranslate :fr Hello world` → translates to French
+- `translate Hello world` → translates to default language
+- `translate :fr Hello world` → translates to French
 
 **Keyboard Shortcuts (all commands):**
 - **Enter**: View response in Text View (markdown)
