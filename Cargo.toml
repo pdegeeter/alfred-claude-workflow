@@ -1,0 +1,31 @@
+[package]
+name = "alfred-claude"
+version = "0.1.0"
+edition = "2024"
+description = "Alfred workflow for Claude, through the Claude Code CLI"
+authors = ["Philippe Degeeter <philippe@degeeter.fr>"]
+license = "MIT"
+repository = "https://github.com/pdegeeter/alfred-claude-workflow"
+publish = false
+
+[profile.release]
+codegen-units = 1
+lto = true
+panic = "abort"
+strip = true
+
+[dependencies]
+anyhow = "1.0.104"
+serde_json = "1.0.152"
+
+[dev-dependencies]
+tempfile = "3.27.0"
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+pedantic = { level = "warn", priority = -1 }
+missing_errors_doc = "allow"
+missing_panics_doc = "allow"
+must_use_candidate = "allow"
