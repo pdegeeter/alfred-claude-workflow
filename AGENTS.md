@@ -51,7 +51,7 @@ The CLI needs `USER` to find its keychain login; `ClaudeCliClient` derives it fr
 
 ## Alfred Workflow Triggers
 
-Each command has three entry points (Script Filter keyword, Universal Action, Hotkey with "Selection in macOS") feeding the same Script Filter, then Text View, Copy and Paste outputs. Keywords are `claude`, `cspell` and `ctranslate`, distinct from the Bedrock workflow so both can be installed. Each Script Filter runs `./alfred-claude <command> "$1"`.
+Each command has three entry points (Script Filter keyword, Universal Action, Hotkey with "Selection in macOS") feeding the same Script Filter, then Text View, Copy and Paste outputs. Keywords are `claude`, `aspell` and `translate`; the last two are shared with the Bedrock workflow. Each Script Filter runs `./alfred-claude <command> "$1"`.
 
 ## Code Style
 
