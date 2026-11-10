@@ -14,7 +14,7 @@
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
-				<string></string>
+				<string/>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -27,7 +27,7 @@
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
-				<string></string>
+				<string/>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -40,7 +40,7 @@
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
-				<string></string>
+				<string/>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -73,7 +73,7 @@
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
-				<string></string>
+				<string/>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -86,7 +86,7 @@
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
-				<string></string>
+				<string/>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -99,7 +99,7 @@
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
-				<string></string>
+				<string/>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -132,7 +132,7 @@
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
-				<string></string>
+				<string/>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -145,7 +145,7 @@
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
-				<string></string>
+				<string/>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -158,7 +158,7 @@
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
-				<string></string>
+				<string/>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -255,13 +255,13 @@
 				<key>focusedappvariable</key>
 				<false/>
 				<key>focusedappvariablename</key>
-				<string></string>
+				<string/>
 				<key>hotkey</key>
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
 				<key>hotstring</key>
-				<string></string>
+				<string/>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -288,13 +288,13 @@
 				<key>focusedappvariable</key>
 				<false/>
 				<key>focusedappvariablename</key>
-				<string></string>
+				<string/>
 				<key>hotkey</key>
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
 				<key>hotstring</key>
-				<string></string>
+				<string/>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -321,13 +321,13 @@
 				<key>focusedappvariable</key>
 				<false/>
 				<key>focusedappvariablename</key>
-				<string></string>
+				<string/>
 				<key>hotkey</key>
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
 				<key>hotstring</key>
-				<string></string>
+				<string/>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -376,7 +376,7 @@
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string></string>
+				<string/>
 				<key>subtext</key>
 				<string>Correct spelling and grammar</string>
 				<key>title</key>
@@ -441,13 +441,13 @@
 				<key>fontsizing</key>
 				<integer>0</integer>
 				<key>footertext</key>
-				<string></string>
+				<string/>
 				<key>inputfile</key>
-				<string></string>
+				<string/>
 				<key>inputtype</key>
 				<integer>0</integer>
 				<key>loadingtext</key>
-				<string></string>
+				<string/>
 				<key>outputmode</key>
 				<integer>0</integer>
 				<key>scriptinput</key>
@@ -496,7 +496,7 @@
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string></string>
+				<string/>
 				<key>subtext</key>
 				<string>Ask anything to Claude</string>
 				<key>title</key>
@@ -523,13 +523,13 @@
 				<key>fontsizing</key>
 				<integer>0</integer>
 				<key>footertext</key>
-				<string></string>
+				<string/>
 				<key>inputfile</key>
-				<string></string>
+				<string/>
 				<key>inputtype</key>
 				<integer>0</integer>
 				<key>loadingtext</key>
-				<string></string>
+				<string/>
 				<key>outputmode</key>
 				<integer>0</integer>
 				<key>scriptinput</key>
@@ -616,7 +616,7 @@
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string></string>
+				<string/>
 				<key>subtext</key>
 				<string>Translate text (use :lang to specify target language)</string>
 				<key>title</key>
@@ -643,13 +643,13 @@
 				<key>fontsizing</key>
 				<integer>0</integer>
 				<key>footertext</key>
-				<string></string>
+				<string/>
 				<key>inputfile</key>
-				<string></string>
+				<string/>
 				<key>inputtype</key>
 				<integer>0</integer>
 				<key>loadingtext</key>
-				<string></string>
+				<string/>
 				<key>outputmode</key>
 				<integer>0</integer>
 				<key>scriptinput</key>
@@ -961,7 +961,7 @@ Examples:
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<string></string>
+				<string/>
 				<key>placeholder</key>
 				<string>/opt/homebrew/bin/claude</string>
 				<key>required</key>
@@ -984,7 +984,7 @@ Examples:
 		<string>claude_path</string>
 	</array>
 	<key>version</key>
-	<string>0.1.0</string>
+	<string>0.2.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/pdegeeter/alfred-claude-workflow</string>
 </dict>
