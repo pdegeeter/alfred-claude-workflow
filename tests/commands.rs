@@ -97,7 +97,7 @@ fn translate_targets_the_default_language() {
 
     TranslateCommand::run(&runner(&claude, &[("default_lang", "de")]), "Hello world").unwrap();
 
-    assert_eq!(claude.stdin(), "Translate to German:\nHello world");
+    assert_eq!(claude.stdin(), "Target language: German\n<text>\nHello world\n</text>");
 }
 
 #[test]
@@ -106,7 +106,20 @@ fn translate_targets_the_language_of_the_prefix() {
 
     TranslateCommand::run(&runner(&claude, &[("default_lang", "de")]), ":fr Hello world").unwrap();
 
-    assert_eq!(claude.stdin(), "Translate to French:\nHello world");
+    assert_eq!(claude.stdin(), "Target language: French\n<text>\nHello world\n</text>");
+}
+
+#[test]
+fn translate_reads_a_bare_known_code_and_delimits_text_that_asks_questions() {
+    let claude = FakeClaudeCli::answering("Ton avis ?");
+    let query = "fr just following up: if you have an opinion?\n\nshould we do it now, or later?";
+
+    TranslateCommand::run(&runner(&claude, &[("default_lang", "en")]), query).unwrap();
+
+    assert_eq!(
+        claude.stdin(),
+        "Target language: French\n<text>\njust following up: if you have an opinion?\n\nshould we do it now, or later?\n</text>"
+    );
 }
 
 #[test]

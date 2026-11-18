@@ -15,7 +15,7 @@ sequenceDiagram
 
     A->>M: ./alfred-claude translate ":fr Hello" (variables in env)
     M->>C: TranslateCommand::run(runner, query)
-    C->>R: ask(system prompt, "Translate to French:\nHello")
+    C->>R: ask(system prompt, "Target language: French\n<text>\nHello\n</text>")
     R->>K: ask(ClaudeRequest { model, effort, system prompt }, message)
     K->>CLI: arguments, prompt on stdin
     CLI-->>K: JSON result
