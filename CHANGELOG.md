@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/pdegeeter/alfred-claude-workflow/compare/v0.2.0...v0.2.1) (2026-11-18)
+
+
+### Bug Fixes
+
+* keep translate from answering or echoing the source text ([#3](https://github.com/pdegeeter/alfred-claude-workflow/issues/3)) ([4f28c2b](https://github.com/pdegeeter/alfred-claude-workflow/commit/4f28c2bc9787b0c8f3f08dd52feba62461ce99c3))
+
 ## [0.2.0](https://github.com/pdegeeter/alfred-claude-workflow/compare/v0.1.0...v0.2.0) (2026-11-10)
 
 
